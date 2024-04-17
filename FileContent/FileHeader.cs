@@ -9,8 +9,7 @@ namespace P5X_vFileContentExtract.FileContent
 {
     internal class FileHeader
     {
-        public int Field00 { get; private set; }
-        public int Field04 { get; private set; }
+        public int HeaderPre1 { get; private set; }
         public int Field08 { get; private set; }
         public int Field0C { get; private set; }
         public int NumOfPTRs { get; private set; }
@@ -18,8 +17,10 @@ namespace P5X_vFileContentExtract.FileContent
 
         public FileHeader(BinaryReader reader)
         {
-            Field00 = reader.ReadInt32();
-            Field04 = reader.ReadInt32();
+            HeaderPre1 = reader.ReadInt32();
+
+            for (int i = 0; i < HeaderPre1 / 4; i++) { var dummy = reader.ReadInt32(); }
+
             Field08 = reader.ReadInt32();
             Field0C = reader.ReadInt32();
             NumOfPTRs = reader.ReadInt32();
