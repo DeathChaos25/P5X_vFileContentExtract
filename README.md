@@ -3,7 +3,7 @@
 File Extractor for the _vfileContent files used by Persona 5 X.  
 
 Usage:  
-Drag and Drop the _vfileIndexV2.fb file from P5X's files into the program's exe.  
+Drag and Drop the _vfileIndexV2.fb file from P5X's files into the program's exe. This does not mean double clicking the exe and dragging the files into the open command window!  
 Make sure all vFileContent files are located in the same place as the index file.
 
 
