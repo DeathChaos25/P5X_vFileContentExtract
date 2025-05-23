@@ -1,6 +1,6 @@
 # P5X_vFileContentExtract  
 
-File Extractor for the _vfileContent files located in the Chinese (and Korean) versions of the P5X beta.  
+File Extractor for the _vfileContent files used by Persona 5 X.  
 
 Usage:  
 Drag and Drop the _vfileIndexV2.fb file from P5X's files into the program's exe.  
