@@ -1,6 +1,6 @@
 # P5X_vFileContentExtract
 
-**File Extractor for `_vfileContent` files used by Persona 5: The Phantom X **
+**File Extractor for `_vfileContent` files used by Persona 5: The Phantom X**
 
 [![Latest Release](https://img.shields.io/badge/Download-Latest_Release-blue?style=for-the-badge&logo=github)](https://github.com/DeathChaos25/P5X_vFileContentExtract/releases/latest)
 [![.NET 8 Required](https://img.shields.io/badge/.NET-8.0-purple?style=for-the-badge)](https://dotnet.microsoft.com/en-us/download/dotnet/8.0)
